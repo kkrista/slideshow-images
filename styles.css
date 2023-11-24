@@ -32,9 +32,20 @@ h1:hover {
     border-radius: 10px;
 }
 
+.small-img:hover {
+    width: 110px;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
     width: 500px;
-    margin: 10px 5px 5px 3px;
+    margin: 20px auto;
+    align-items: center;
 }
